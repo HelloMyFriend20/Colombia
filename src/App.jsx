@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-ro
 import { useState } from 'react'
 import './App.css'
 
-import Home from './componentes/home'
-import Informativo from './componentes/informativo'
-import Favorito from './componentes/favorito'
-import Original from './componentes/original'
-import Detalle from './componentes/detalles'
+import Home from './componentes/Home'
+import Informativo from './componentes/Informativa'
+import Favorito from './componentes/Favorito'
+import Original from './componentes/Original'
+import Detalle from './componentes/Detalles'
 
 function App() {
   //Con Router creamos nuestras ventanas
